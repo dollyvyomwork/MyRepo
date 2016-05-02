@@ -10,7 +10,9 @@ namespace SampleGit.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Your application Index page.";
             return View();
+
 
         }
 
